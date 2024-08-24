@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HillEncryption", "HillEncryption\HillEncryption.csproj", "{ACA5CEFC-7F04-4EB7-9EED-E71D8A388453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA5CEFC-7F04-4EB7-9EED-E71D8A388453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA5CEFC-7F04-4EB7-9EED-E71D8A388453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA5CEFC-7F04-4EB7-9EED-E71D8A388453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA5CEFC-7F04-4EB7-9EED-E71D8A388453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBF13245-6D24-400D-9C72-6DE48C9775AB}
+	EndGlobalSection
+EndGlobal
