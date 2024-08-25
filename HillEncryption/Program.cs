@@ -35,11 +35,8 @@ for (int i = 0; i < plainText.Length; i += n)
         {
             sum += matrix2[k] * keyMatrix[l, k];
         }
-        while (sum < 0)
-        {
-            sum += alphabet.Length;
-        }
-        sum %= alphabet.Length;
+        if (sum < 0) while (sum < 0) sum += alphabet.Length;
+        else sum %= alphabet.Length;
         cipherText += alphabet[sum];
     }
 }
